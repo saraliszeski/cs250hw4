@@ -1132,7 +1132,6 @@ end TCL_Generic;&#13;
     <wire from="(1000,670)" to="(1350,670)"/>
     <wire from="(1230,220)" to="(1490,220)"/>
     <wire from="(800,700)" to="(830,700)"/>
-    <wire from="(830,330)" to="(860,330)"/>
     <wire from="(610,290)" to="(810,290)"/>
     <wire from="(640,580)" to="(770,580)"/>
     <wire from="(550,220)" to="(810,220)"/>
@@ -1144,6 +1143,7 @@ end TCL_Generic;&#13;
     <wire from="(640,480)" to="(640,530)"/>
     <wire from="(610,290)" to="(610,340)"/>
     <wire from="(610,490)" to="(610,540)"/>
+    <wire from="(860,300)" to="(870,300)"/>
     <wire from="(250,140)" to="(770,140)"/>
     <wire from="(860,270)" to="(910,270)"/>
     <wire from="(250,150)" to="(760,150)"/>
@@ -1206,6 +1206,7 @@ end TCL_Generic;&#13;
     <wire from="(1170,160)" to="(1490,160)"/>
     <wire from="(840,580)" to="(940,580)"/>
     <wire from="(860,400)" to="(860,430)"/>
+    <wire from="(820,330)" to="(860,330)"/>
     <wire from="(1150,230)" to="(1150,620)"/>
     <wire from="(860,330)" to="(1090,330)"/>
     <wire from="(970,530)" to="(970,680)"/>
@@ -1339,13 +1340,13 @@ end TCL_Generic;&#13;
       <a name="width" val="16"/>
       <a name="label" val="data_in"/>
     </comp>
+    <comp lib="0" loc="(870,300)" name="Probe">
+      <a name="facing" val="west"/>
+      <a name="label" val="r2"/>
+    </comp>
     <comp lib="0" loc="(850,510)" name="Probe">
       <a name="facing" val="west"/>
       <a name="label" val="r6"/>
-    </comp>
-    <comp lib="0" loc="(860,300)" name="Probe">
-      <a name="facing" val="west"/>
-      <a name="label" val="r2"/>
     </comp>
     <comp lib="0" loc="(1680,190)" name="Pin">
       <a name="facing" val="west"/>
