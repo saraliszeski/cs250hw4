@@ -1216,9 +1216,9 @@ end TCL_Generic;&#13;
     <wire from="(550,420)" to="(800,420)"/>
     <wire from="(940,580)" to="(1230,580)"/>
     <wire from="(1220,210)" to="(1220,530)"/>
+    <wire from="(140,180)" to="(140,200)"/>
     <wire from="(640,280)" to="(640,310)"/>
     <wire from="(770,140)" to="(770,350)"/>
-    <wire from="(100,150)" to="(140,150)"/>
     <wire from="(1060,380)" to="(1060,650)"/>
     <wire from="(1120,280)" to="(1170,280)"/>
     <wire from="(610,590)" to="(780,590)"/>
@@ -1237,6 +1237,7 @@ end TCL_Generic;&#13;
     <wire from="(1000,670)" to="(1350,670)"/>
     <wire from="(1230,220)" to="(1490,220)"/>
     <wire from="(860,360)" to="(890,360)"/>
+    <wire from="(140,200)" to="(220,200)"/>
     <wire from="(640,580)" to="(770,580)"/>
     <wire from="(550,220)" to="(810,220)"/>
     <wire from="(860,380)" to="(1060,380)"/>
@@ -1319,7 +1320,6 @@ end TCL_Generic;&#13;
     <wire from="(720,190)" to="(720,660)"/>
     <wire from="(910,280)" to="(1120,280)"/>
     <wire from="(1200,190)" to="(1200,430)"/>
-    <wire from="(130,200)" to="(220,200)"/>
     <wire from="(1160,150)" to="(1490,150)"/>
     <wire from="(640,530)" to="(800,530)"/>
     <wire from="(1060,380)" to="(1190,380)"/>
@@ -1353,6 +1353,7 @@ end TCL_Generic;&#13;
     <wire from="(780,300)" to="(820,300)"/>
     <wire from="(840,510)" to="(840,530)"/>
     <wire from="(860,250)" to="(860,270)"/>
+    <wire from="(100,180)" to="(140,180)"/>
     <wire from="(860,430)" to="(1030,430)"/>
     <wire from="(850,150)" to="(850,230)"/>
     <wire from="(640,310)" to="(640,330)"/>
@@ -1402,7 +1403,6 @@ end TCL_Generic;&#13;
       <a name="label" val="r1"/>
     </comp>
     <comp loc="(830,530)" name="register"/>
-    <comp lib="0" loc="(100,150)" name="Pin"/>
     <comp lib="0" loc="(90,230)" name="Pin">
       <a name="width" val="3"/>
       <a name="label" val="rd"/>
@@ -1411,7 +1411,6 @@ end TCL_Generic;&#13;
       <a name="facing" val="west"/>
       <a name="label" val="r2"/>
     </comp>
-    <comp lib="0" loc="(130,200)" name="Constant"/>
     <comp lib="2" loc="(1530,190)" name="Multiplexer">
       <a name="select" val="3"/>
       <a name="width" val="16"/>
@@ -1434,6 +1433,7 @@ end TCL_Generic;&#13;
       <a name="width" val="3"/>
       <a name="label" val="rs1"/>
     </comp>
+    <comp lib="0" loc="(100,180)" name="Pin"/>
     <comp lib="0" loc="(890,450)" name="Probe">
       <a name="facing" val="west"/>
       <a name="label" val="r5"/>
