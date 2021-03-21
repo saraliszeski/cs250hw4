@@ -1412,7 +1412,6 @@ end TCL_Generic;&#13;
       <a name="width" val="3"/>
       <a name="label" val="rs1"/>
     </comp>
-    <comp lib="0" loc="(100,180)" name="Pin"/>
     <comp lib="0" loc="(890,450)" name="Probe">
       <a name="facing" val="west"/>
       <a name="label" val="r5"/>
@@ -1443,6 +1442,9 @@ end TCL_Generic;&#13;
     <comp lib="0" loc="(950,190)" name="Probe">
       <a name="facing" val="west"/>
       <a name="label" val="r0"/>
+    </comp>
+    <comp lib="0" loc="(100,180)" name="Pin">
+      <a name="label" val="sw"/>
     </comp>
     <comp loc="(820,330)" name="register"/>
     <comp loc="(830,380)" name="register"/>
