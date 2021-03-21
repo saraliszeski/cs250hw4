@@ -547,8 +547,7 @@ end TCL_Generic;&#13;
       <a name="addrWidth" val="16"/>
       <a name="dataWidth" val="16"/>
       <a name="contents">addr/data: 16 16
-8083 80c4 8100 c825 8900 c825 8900 c821
-8900 3880 38c1 8080 80c0 2880 28c1 403f
+0
 </a>
     </comp>
     <comp lib="0" loc="(1020,340)" name="Tunnel">
