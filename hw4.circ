@@ -149,13 +149,13 @@ end TCL_Generic;&#13;
     <wire from="(1550,270)" to="(1550,280)"/>
     <wire from="(1130,490)" to="(1180,490)"/>
     <wire from="(990,460)" to="(1010,460)"/>
-    <wire from="(80,1540)" to="(110,1540)"/>
     <wire from="(1410,410)" to="(1420,410)"/>
     <wire from="(1220,380)" to="(1230,380)"/>
     <wire from="(970,490)" to="(970,530)"/>
     <wire from="(770,620)" to="(860,620)"/>
     <wire from="(300,1260)" to="(450,1260)"/>
     <wire from="(950,340)" to="(1020,340)"/>
+    <wire from="(80,1540)" to="(210,1540)"/>
     <wire from="(1290,600)" to="(1310,600)"/>
     <wire from="(1330,180)" to="(1330,200)"/>
     <wire from="(690,660)" to="(690,670)"/>
@@ -338,7 +338,6 @@ end TCL_Generic;&#13;
     <wire from="(610,700)" to="(610,760)"/>
     <wire from="(1220,380)" to="(1220,480)"/>
     <wire from="(740,670)" to="(740,730)"/>
-    <wire from="(140,1540)" to="(210,1540)"/>
     <wire from="(830,640)" to="(840,640)"/>
     <wire from="(790,680)" to="(800,680)"/>
     <wire from="(600,690)" to="(600,740)"/>
@@ -435,7 +434,6 @@ end TCL_Generic;&#13;
       <a name="facing" val="east"/>
       <a name="label" val="is_beq"/>
     </comp>
-    <comp lib="1" loc="(140,1540)" name="NOT Gate"/>
     <comp lib="0" loc="(610,640)" name="Tunnel">
       <a name="facing" val="east"/>
       <a name="label" val="not_sw"/>
